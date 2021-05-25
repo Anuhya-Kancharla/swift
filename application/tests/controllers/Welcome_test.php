@@ -13,7 +13,7 @@ class Welcome_test extends TestCase
 	public function test_index()
 	{
 		
-		$this->request('GET','/welcome);
+		$this->request('GET','/welcome');
 		$this->assertResponseCode(200);
 	}
 
